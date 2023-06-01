@@ -85,3 +85,11 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
+@media only screen and (max-width: 900px)
+{
+    .pdflink {
+        font-size: 15pt;
+        padding-top: 25%;
+    }
+}

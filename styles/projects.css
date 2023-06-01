@@ -68,6 +68,7 @@ footer {
   float: left; 
 }
 
+
 .projects::after {
     content:"";
     display: table;
@@ -103,4 +104,33 @@ a:visited {
 
 a:hover {
     font-size: 105%;
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .projecttitle {
+        font-size: 12pt;
+    }
+
+    .name {
+        font-size: 40pt;
+    }
+
+    .header {
+        font-size: 30pt;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .project {
+        width: 100%;
+        padding: 5%;
+    }
+    .projecttitle {
+        font-size: 15pt;
+    }
 }
