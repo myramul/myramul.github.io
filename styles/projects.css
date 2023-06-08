@@ -86,7 +86,7 @@ footer {
 
 .projecttitle {
     font-family: Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    font-size: 145%;
+    font-size: 125%;
     color: white;
     text-decoration: underline;
 }
@@ -112,6 +112,10 @@ a:hover {
         padding: 4%;
     }
 
+    .projects {
+        margin-top: 35%;
+    }
+
     .projecttitle {
         font-size: 12pt;
     }
@@ -120,17 +124,27 @@ a:hover {
         font-size: 40pt;
     }
 
-    .header {
-        font-size: 30pt;
+    header {
+        font-size: 245%;
+        text-align: center;
+        float: none;
+        margin-top: 0;
+        margin-left: 4%;
+        margin-right: -4%;
+        padding: 0;
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 895px) {
     .project {
         width: 100%;
         padding: 5%;
     }
     .projecttitle {
         font-size: 15pt;
+    }
+
+    .projects {
+        margin-top: 30%;
     }
 }
