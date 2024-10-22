@@ -1,0 +1,9 @@
+@font-face{
+    font-family: Mono2;
+    src: url(fonts/mono_2/MonoRegular.ttf);
+}
+body{
+    font-family: Mono2, 'Menlo', sans-serif;
+    font-size: 35px;
+    color: #312642;
+}

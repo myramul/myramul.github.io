@@ -1,0 +1,87 @@
+@font-face{
+    font-family: monofett;
+    src: url(fonts/Monofett-Regular.ttf);
+}
+
+@font-face{
+    font-family: Mono2;
+    src: url(fonts/mono_2/MonoRegular.ttf);
+}
+
+@font-face{
+    font-family: Keyboard212;
+    src: url(fonts/212_keyboard/212Keyboard.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Mono2, 'Menlo', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+}
+.left-nav {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    align-self: flex-start;
+    font-size: 2.2rem;
+    margin-top: 45px;
+}
+.left-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.left-nav li {
+    margin-bottom: 10px;
+    :hover {
+        color: #b3a2c1;
+    }
+}
+.left-nav a {
+    text-decoration: none;
+    color: #312642;
+}
+.middle-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.middle-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: Keyboard212, sans-serif;
+    color: #312642;
+}
+.middle-content img {
+    max-width: 100%;
+    max-height: 65vh;
+    object-fit: contain;
+    margin-right: 10px;
+    
+}
+.right-about {
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: #312642;
+    margin-top: 45px;
+    margin-left: 0;
+}
+
+.location{
+    font-size: 1.3rem;
+    color: #b3a2c1;
+}
